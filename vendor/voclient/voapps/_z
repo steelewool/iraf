@@ -1,0 +1,13 @@
+#!/bin/csh -fx
+
+./voatlas -b infrared 		      -o img001.fits 	ngc4258
+./voatlas -p nvss -v 		      -o img002.fits
+./voatlas -s 20m --survey=wise22      -o img003.fits 	m101
+./voatlas -n 256 --survey=sdssg       -o img004.fits 	ngc4258
+#
+./voatlas -n 256 -p sdssg 	      -o img005.fits 	ngc4258
+#
+./voatlas --band=infrared 	      -o img006.fits 	ngc4258
+./voatlas --survey=nvss -v 	      -o img007.fits
+./voatlas --size=20m --survey=wise22  -o img008.fits 	m101
+./voatlas --naxis=256 --survey=sdssg  -o img009.fits 	ngc4258
