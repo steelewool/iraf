@@ -3,7 +3,14 @@
 
 #define import_spp
 #define import_knames
-#include <iraf.h>
+
+/*
+ * rds, this line was:
+ *                    #include <iraf.h>
+ * I changed the reference to the .iraf directory.
+ */
+
+#include </home/steele/.iraf/iraf.h>
 
 /* ACLRC -- Clear a block of memory.
  * [Specially optimized for Sun/IRAF].
