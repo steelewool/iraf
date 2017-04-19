@@ -330,8 +330,12 @@ extern void	c_xwhen (int exception, PFI new_handler, PFI *old_handler);
    #include "/iraf/iraf/unix/hlib/libc/vosproto.h"
  */
 
-#include "/home/steele/git/iraf/unix/bin.linux/f2c.h"
-#include "/home/steele/git/iraf/unix/hlib/libc/vosproto.h"
+/*
+ * rds changed the two reference below to be relative to this location
+ */
+
+#include "../../bin.linux/f2c.h"
+#include "../../hlib/libc/vosproto.h"
 
 #define	D_libc
 #define	D_libc_proto
