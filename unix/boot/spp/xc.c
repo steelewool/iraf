@@ -822,12 +822,21 @@ passflag:		    mkobject = YES;
 #endif
 #if (defined(LINUX) && !defined(MACH64))
 	arglist[nargs++] = "-m32";
+	/*
+	 * rds made a whack at adding -I/home/steele/.iraf here.
+	 */
+	arglist[nargs++] = "-I/home/steele/.iraf";
 #endif
 #if (defined(BSD))
 	arglist[nargs++] = "-m32";
 #endif
 
 #ifdef LINUXAOUT
+	/*
+	 * rds made a whack at adding -I/home/steele/.iraf here.
+	 */
+	arglist[nargs++] = "-I/home/steele/.iraf";
+
 	arglist[nargs++] = "-b";
 	arglist[nargs++] = "i486-linuxaout";
 #endif
@@ -904,6 +913,11 @@ passflag:		    mkobject = YES;
 	}
 #endif
 #if (defined(LINUX) && !defined(MACH64))
+	/*
+	 * rds made a whack at adding -I/home/steele/.iraf here.
+	 */
+	arglist[nargs++] = "-I/home/steele/.iraf";
+
 	arglist[nargs++] = "-m32";
 #endif
 #if (defined(BSD))
@@ -911,6 +925,11 @@ passflag:		    mkobject = YES;
 #endif
 
 #ifdef LINUXAOUT
+	/*
+	 * rds made a whack at adding -I/home/steele/.iraf here.
+	 */
+	arglist[nargs++] = "-I/home/steele/.iraf";
+
         arglist[nargs++] = "-b";
 	arglist[nargs++] = "i486-linuxaout";
 #endif
@@ -972,17 +991,37 @@ passflag:		    mkobject = YES;
 	arglist[nargs++] = "-DMACH64";		/* needed for zmain.c */
 #endif
 #ifdef LINUX64
+	/*
+	 * rds made a whack at adding -I/home/steele/.iraf here.
+	 */
+	arglist[nargs++] = "-I/home/steele/.iraf";
+
 	arglist[nargs++] = "-DLINUX64";		/* needed for zmain.c */
 #endif
 #if (defined(LINUX) && !defined(MACH64))
+	/*
+	 * rds made a whack at adding -I/home/steele/.iraf here.
+	 */
+	arglist[nargs++] = "-I/home/steele/.iraf";
+
 	arglist[nargs++] = "-m32";
 #endif
 #ifdef LINUX
+	/*
+	 * rds made a whack at adding -I/home/steele/.iraf here.
+	 */
+	arglist[nargs++] = "-I/home/steele/.iraf";
+
 	arglist[nargs++] = "-DLINUX";
 #ifdef REDHAT
 	arglist[nargs++] = "-DREDHAT";
 #endif
 #ifdef LINUXPPC
+	/*
+	 * rds made a whack at adding -I/home/steele/.iraf here.
+	 */
+	arglist[nargs++] = "-I/home/steele/.iraf";
+
 	arglist[nargs++] = "-DLINUXPPC";
 #endif
 	arglist[nargs++] = "-DPOSIX";
@@ -1027,6 +1066,11 @@ passflag:		    mkobject = YES;
 #endif
 
 #ifdef LINUXAOUT
+	/*
+	 * rds made a whack at adding -I/home/steele/.iraf here.
+	 */
+	arglist[nargs++] = "-I/home/steele/.iraf";
+
         arglist[nargs++] = "-b";
 	arglist[nargs++] = "i486-linuxaout";
 #endif
@@ -1104,9 +1148,19 @@ passflag:		    mkobject = YES;
 	arglist[nargs++] = "-Wl,-t";
 #endif
 #if (defined(LINUX) && !defined(MACH64))
+	/*
+	 * rds made a whack at adding -I/home/steele/.iraf here.
+	 */
+	arglist[nargs++] = "-I/home/steele/.iraf";
+
 	arglist[nargs++] = "-Wl,--defsym,mem_=0";
 #endif
 #if (defined(LINUX) && !defined(MACH64))
+	/*
+	 * rds made a whack at adding -I/home/steele/.iraf here.
+	 */
+	arglist[nargs++] = "-I/home/steele/.iraf";
+
 	arglist[nargs++] = "-m32";
 #endif
 #if (defined(BSD))
@@ -1125,6 +1179,11 @@ passflag:		    mkobject = YES;
 	}
 #endif
 #ifdef LINUXAOUT
+	/*
+	 * rds made a whack at adding -I/home/steele/.iraf here.
+	 */
+	arglist[nargs++] = "-I/home/steele/.iraf";
+
         arglist[nargs++] = "-b";
 	arglist[nargs++] = "i486-linuxaout";
 #endif
