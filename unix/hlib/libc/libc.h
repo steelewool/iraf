@@ -322,8 +322,16 @@ extern void	c_xwhen (int exception, PFI new_handler, PFI *old_handler);
 
 /*
 */
-#include "/iraf/iraf/unix/bin/f2c.h"
-#include "/iraf/iraf/unix/hlib/libc/vosproto.h"
+
+/*
+ * The directory unix/bin does not exist in my directory structure.
+ * This was the original lines:
+   #include "/iraf/iraf/unix/bin/f2c.h"
+   #include "/iraf/iraf/unix/hlib/libc/vosproto.h"
+ */
+
+#include "/home/steele/git/iraf/unix/bin.linux/f2c.h"
+#include "/home/steele/git/iraf/unix/hlib/libc/vosproto.h"
 
 #define	D_libc
 #define	D_libc_proto
