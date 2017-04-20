@@ -105,6 +105,11 @@ To Install IRAF for system-wide use:
 To Build From Sources:
 ----------------------
 
+  0) Step 0 added by Rob & Zach Steele of SteeleWoolSoftware
+
+        Install csh      (sudo apt-get install csh)
+        Install compress (sudo apt-get install ncompress)
+
   1) Download and unpack the source distribution file:
 
 	% tar zxf /<path>/iraf-src.tar.gz	# unpack tar file
