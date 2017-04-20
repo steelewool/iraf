@@ -34,7 +34,7 @@ fi
 # Parse the arguments.
 loop_="yes"
 while [ "$loop_" == "yes" ]; do
-    /bin/echo "Making architecture: "$arch
+  /bin/echo "Selecting architecture"
 
   if [ "$#" -gt 0 ]; then
     arch=$1
@@ -71,6 +71,8 @@ while [ "$loop_" == "yes" ]; do
     arch=$aarch
     loop_="yes"
   fi
+
+  /bin/echo "Making architecture: "$arch
 done
 
 if [ -e "$HOME/.iraf/arch" ]; then
