@@ -976,6 +976,8 @@ passflag:		    mkobject = YES;
 	 * rds made a whack at adding -I/home/steele/.iraf here.
 	 */
 	arglist[nargs++] = "-I/home/steele/.iraf";
+	arglist[nargs++] = "-I/home/steele/git/iraf/noao/lib";
+	arglist[nargs++] = "-I/home/steele/git/iraf/lib/math";
 
 	arglist[nargs++] = "-DLINUX64";		/* needed for zmain.c */
 #endif
