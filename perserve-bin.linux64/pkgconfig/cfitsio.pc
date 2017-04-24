@@ -1,0 +1,11 @@
+prefix=/home/steele/git/iraf
+exec_prefix=/home/steele/git/iraf
+libdir=/home/steele/git/iraf/bin
+includedir=${prefix}/include
+
+Name: cfitsio
+Description: FITS File Subroutine Library
+Version: 3.31
+Libs: -L${libdir} -lcfitsio 
+Libs.private: -lm
+Cflags: -I${includedir}
