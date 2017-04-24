@@ -38,8 +38,15 @@ fi
 c_start=`date`
 /bin/rm -f spool */spool
 
+# Removing all of the old binaries seeems silly if the makefile
+# dependencies are set up correctly. Only those files that need to
+# be remade should be made in that case. I'll try and fix this, but
+# for now the libVO.a will be copied since the makefile system
+# as of 2017-04-24 can make that file.
 
 $iraf/util/mkclean				# clean old binaries
+
+cp $iraf/perserve-bin.linux64/libVO.a $iraf/bin.linux64/.
 
 cd $iraf/unix					# NOVOS bootstrap
 source hlib/irafuser.sh
