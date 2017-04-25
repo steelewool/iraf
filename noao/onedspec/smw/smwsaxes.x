@@ -1,6 +1,6 @@
 include	<imhdr.h>
 include	<mwset.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
 # SMW_SAXES -- Set axes parameters based on previously set dispersion axis.

@@ -1,4 +1,4 @@
-include <smw.h>
+include	"../../lib/smw.h"
 
 
 # SMW_NEWCOPY -- Make a new copy of an SMW structure.

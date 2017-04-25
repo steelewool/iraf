@@ -1,6 +1,6 @@
 include	<ctype.h>
 include	<error.h>
-include	<funits.h>
+include	"../../lib/funits.h"
 
 
 # FUN_OPEN -- Open funits package

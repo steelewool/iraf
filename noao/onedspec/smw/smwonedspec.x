@@ -1,5 +1,5 @@
 include <imhdr.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
 # SMW_ONEDSPEC -- Convert old "onedspec" format to EQUISPEC.

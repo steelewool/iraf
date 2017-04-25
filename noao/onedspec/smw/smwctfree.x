@@ -1,5 +1,4 @@
-include	<smw.h>
-
+include	"../../lib/smw.h"
 
 # SMW_CTFREE -- Free a spectral SMW coordinate transform pointer.
 

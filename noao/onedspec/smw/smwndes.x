@@ -1,6 +1,5 @@
 include	<imhdr.h>
-include	<smw.h>
-
+include	"../../lib/smw.h"
 
 # SMW_NDES -- Convert NDSPEC WCS into EQUISPEC WCS.
 # This requires that the logical dispersion axis be 1.

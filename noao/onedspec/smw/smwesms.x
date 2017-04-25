@@ -1,5 +1,5 @@
 include	<mwset.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
 # SMW_ESMS -- Convert EQUISPEC WCS into MULTISPEC WCS.

@@ -1,5 +1,5 @@
 include	<mwset.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
 # SMW_MERGE -- Merge split MWCS array to a single MWCS.

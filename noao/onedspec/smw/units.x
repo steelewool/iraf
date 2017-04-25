@@ -1,7 +1,6 @@
 include	<ctype.h>
 include	<error.h>
-include	<units.h>
-
+include	"../../lib/units.h"
 
 # UN_OPEN -- Open units package
 # It is allowed to open an unknown unit type

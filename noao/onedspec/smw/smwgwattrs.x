@@ -1,6 +1,5 @@
 include	<error.h>
-include	<smw.h>
-
+include	"../../lib/smw.h"
 
 # SMW_GWATTRS -- Get spectrum attribute parameters.
 # BE CAREFUL OF OUTPUT VARIABLES BEING THE SAME MEMORY ADDRESS!

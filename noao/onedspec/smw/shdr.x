@@ -1,10 +1,10 @@
 include	<error.h>
 include <imhdr.h>
 include	<imset.h>
-include	<smw.h>
-include	<units.h>
-include	<funits.h>
-include	<math/iminterp.h>
+include	"../../lib/smw.h"
+include	"../../lib/units.h"
+include	"../../lib/funits.h"
+include	"../../../lib/math/iminterp.h"
 
 
 # SHDR_OPEN    -- Open the SHDR spectrum header structure.

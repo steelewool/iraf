@@ -1,9 +1,9 @@
 include <imhdr.h>
 include	<mwset.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
-# SMW_EQUISPEC -- Setup the EQUISPEC SMW parameters.
+# SMW_EQUISPEC -- Setup the EQUISPEC SMW parame
 # The aperture information is in the APNUM and APID keywords and the
 # WCS information is in the linear MWCS.
 

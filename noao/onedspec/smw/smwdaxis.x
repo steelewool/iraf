@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 
 define	CTYPES	"|LAMBDA|FREQ|WAVELENGTH|VELO|VELO-LSR|VELO-HEL|VELO-OBS|"
 

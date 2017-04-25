@@ -1,5 +1,5 @@
 include	<error.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
 # SMW_SCTRAN -- Set the SMW coordinate system transformation.

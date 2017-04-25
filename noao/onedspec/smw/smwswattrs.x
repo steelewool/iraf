@@ -1,6 +1,5 @@
 include	<error.h>
-include	<smw.h>
-
+include	"../../lib/smw.h"
 
 # SMW_SWATTRS -- Set spectrum attribute parameters
 # This routine has the feature that if the coordinate system of a single

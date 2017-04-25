@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
 # SMW_OPEN -- Open SMW structure.

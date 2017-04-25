@@ -1,6 +1,5 @@
 include	<imhdr.h>
-include	<smw.h>
-
+include	"../../lib/smw.h"
 
 # SMW_ND -- Setup the NDSPEC SMW.
 # If there is only one spectrum convert it to EQUISPEC if possible.

@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
 # SMW_CT -- Get MCWS CT pointer for the specified physical line.

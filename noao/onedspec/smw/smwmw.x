@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
 # SMW_MW -- Get MWCS pointer and coordinates from spectrum line and band

@@ -1,5 +1,4 @@
-include	<smw.h>
-
+include	"../../lib/smw.h"
 
 # SMW_MULTISPEC -- Setup the MULTISPEC SMW parameters.
 

@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
 # Evaluate SMW coordinate transform.  These procedures call the

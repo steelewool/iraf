@@ -1,6 +1,5 @@
 include	<mwset.h>
-include	<smw.h>
-
+include	"../../lib/smw.h"
 
 # SMW_OLDMS -- Convert old multispec format into MULTISPEC SMW.
 

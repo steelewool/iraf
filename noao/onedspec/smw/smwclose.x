@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
 # SMW_CLOSE -- Close the SMW data structure.

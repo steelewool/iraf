@@ -1,7 +1,6 @@
 include <imhdr.h>
 include	<imio.h>
-include	<smw.h>
-
+include	"../../lib/smw.h"
 
 # SMW_SAVEIM -- Save spectral WCS in image header.
 # The input and output formats are EQUISPEC and MULTISPEC.  A split input
