@@ -46,8 +46,9 @@ c_start=`date`
 
 $iraf/util/mkclean				# clean old binaries
 
-cp $iraf/perserve-bin.linux64/libVO.a $iraf/bin.linux64/.
-cp $iraf/perserve-bin.linux64/libc.a  $iraf/bin.linux64/.
+cp $iraf/perserve-bin.linux64/libVO.a      $iraf/bin.linux64/.
+cp $iraf/perserve-bin.linux64/libc.a       $iraf/bin.linux64/.
+cp $iraf/perserve-bin.linux64/libcfitsio.a $iraf/bin.linux64/.
 
 cd $iraf/unix					# NOVOS bootstrap
 source hlib/irafuser.sh
