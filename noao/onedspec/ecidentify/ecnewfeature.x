@@ -1,5 +1,5 @@
 include	<mach.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"ecidentify.h"
 
 # EC_NEWFEATURE -- Allocate and initialize memory for a new feature.

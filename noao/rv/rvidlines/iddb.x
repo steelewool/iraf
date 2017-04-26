@@ -1,6 +1,6 @@
 include	<imset.h>
 include	<math/curfit.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"identify.h"
 
 # ID_DBREAD -- Read features data from the database.

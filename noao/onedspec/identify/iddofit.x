@@ -1,4 +1,4 @@
-include	<units.h>
+include	"../../lib/units.h"
 include	"identify.h"
 
 # ID_DOFIT -- Fit a function to the features.  Eliminate INDEF points.

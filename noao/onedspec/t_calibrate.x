@@ -1,8 +1,9 @@
 include	<error.h>
 include	<imset.h>
 include	<imhdr.h>
-include	<math/iminterp.h>
-include	<smw.h>
+include	"../../lib/math/iminterp.h"
+include	"../lib/smw.h"
+
 
 define	EXTN_LOOKUP	10	# Interp index for de-extinction
 define	VLIGHT	2.997925e18	# Speed of light, Angstroms/sec

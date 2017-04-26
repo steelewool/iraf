@@ -1,6 +1,6 @@
 include <error.h>
 include	<mach.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 
 # Function Mode for STEK
 

@@ -1,7 +1,7 @@
 include	<mach.h>
 include	<error.h>
 include	<imhdr.h>
-include <smw.h>
+include	"../../lib/smw.h"
 
 define	SZ_IDSTITLE	64		# Length of IDSOUT title
 define	SZ_CARD		80		# Columns on a card

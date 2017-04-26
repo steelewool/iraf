@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 
 # ID_FIXX - Adjust so that pixel indices are increasing.
 

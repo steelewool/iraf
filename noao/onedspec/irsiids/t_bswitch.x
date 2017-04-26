@@ -2,7 +2,7 @@ include	<error.h>
 include	<imhdr.h>
 include	<mach.h>
 include	<time.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 
 define	MAX_NR_BEAMS	100	# Max number of instrument apertures
 define	MIN_RANGES	100	# Minimum spectra per beam if not given

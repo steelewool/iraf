@@ -1,7 +1,7 @@
 include	<mach.h>
 include	<gset.h>
 include	<pkg/gtools.h>
-include	<smw.h>
+include	"../../../lib/smw.h"
 include	"../identify.h"
 include	"autoid.h"
 

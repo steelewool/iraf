@@ -1,8 +1,8 @@
 include	<error.h>
 include	<imhdr.h>
 include	<math/curfit.h>
-include	<smw.h>
-include	<units.h>
+include	"../../lib/smw.h"
+include	"../../lib/units.h"
 
 define	AIRVAC	"|none|air2vac|vac2air|"
 define	NONE	1		# No correction

@@ -1,6 +1,6 @@
 include <math/gsurfit.h>
-include <smw.h>
-include <units.h>
+include	"../../lib/smw.h"
+include	"../../lib/units.h"
 include "ecidentify.h"
 
 # EC_DBREAD -- Read features data from the database.

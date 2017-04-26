@@ -1,6 +1,6 @@
 include	<error.h>
 include	<imhdr.h>
-include	<smw.h>
+include	"../lib/smw.h"
 
 define	DEREDTYPES	"|A(V)|E(B-V)|c|"
 

@@ -1,6 +1,6 @@
 include	<error.h>
-include	<smw.h>
-include <units.h>
+include	"../../lib/smw.h"
+include	"../../lib/units.h"
 
 # USERCOORD -- Set user coordinates
 

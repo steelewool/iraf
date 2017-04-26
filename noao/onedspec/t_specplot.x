@@ -4,8 +4,8 @@ include	<error.h>
 include	<gset.h>
 include	<mach.h>
 include	<pkg/gtools.h>
-include	<smw.h>
-include	<units.h>
+include	"../lib/smw.h"
+include	"../lib/units.h"
 include	"specplot.h"
 
 # Define the help information.

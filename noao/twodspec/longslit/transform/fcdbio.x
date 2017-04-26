@@ -1,7 +1,7 @@
 include	<error.h>
 include	<math/gsurfit.h>
 include	<pkg/dttext.h>
-include	<units.h>
+include	"../../../lib/units.h"
 
 # FC_DBWRITE -- Write an fitcoords database entry.
 

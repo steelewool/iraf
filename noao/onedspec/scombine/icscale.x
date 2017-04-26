@@ -4,7 +4,7 @@ include	<imhdr.h>
 include	<imset.h>
 include	<error.h>
 include	<ctype.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"icombine.h"
 
 # IC_SCALE -- Get the scale factors for the spectra.

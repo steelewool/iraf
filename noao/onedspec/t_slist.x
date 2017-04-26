@@ -1,7 +1,7 @@
 include	<error.h>
 include	<imhdr.h>
 include	<fset.h>
-include	<smw.h>
+include	"../lib/smw.h"
 
 
 # T_SLIST --  Lists header information from MULTISPEC format header

@@ -1,7 +1,7 @@
 include	<imset.h>
 include	<math/curfit.h>
-include	<smw.h>
-include	<units.h>
+include	"../../lib/smw.h"
+include	"../../lib/units.h"
 include	"identify.h"
 include	<pkg/dttext.h>
 

@@ -2,8 +2,8 @@ include	<error.h>
 include	<imhdr.h>
 include	<gset.h>
 include	<pkg/gtools.h>
-include <smw.h>
-include	<units.h>
+include	"../../lib/smw.h"
+include	"../../lib/units.h"
 
 define	KEY		"noao$onedspec/splot/splot.key"
 define	HELP		"noao$onedspec/splot/stshelp.key"

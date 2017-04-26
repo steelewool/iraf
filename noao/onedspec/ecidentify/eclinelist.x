@@ -1,7 +1,7 @@
 include	<error.h>
 include	<mach.h>
-include	<smw.h>
-include	<units.h>
+include	"../../lib/smw.h"
+include	"../../lib/units.h"
 include	"ecidentify.h"
 
 # EC_MAPLL -- Read the line list into memory.

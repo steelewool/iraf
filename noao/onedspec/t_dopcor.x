@@ -1,6 +1,6 @@
 include	<error.h>
 include	<imhdr.h>
-include	<smw.h>
+include	"../lib/smw.h"
 
 define	EXTN_LOOKUP	10	# Interp index for de-extinction
 define	VLIGHT	2.997925e5	# Speed of light, Km/sec

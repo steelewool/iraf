@@ -1,5 +1,5 @@
 include	<gset.h>
-include <smw.h>
+include	"../../lib/smw.h"
 
 define	OPTIONS	"|label|mabove|mbelow|"
 define	LABEL	1	# Label at cursor position

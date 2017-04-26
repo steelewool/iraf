@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"ecidentify.h"
 
 # EC_GLINE -- Get line of data.

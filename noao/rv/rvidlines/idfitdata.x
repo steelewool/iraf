@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"identify.h"
 
 # ID_FITDATA -- Compute fit coordinates from pixel coordinates.

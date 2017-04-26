@@ -1,7 +1,7 @@
 # Copyright(c) 1986 Association of Universities for Research in Astronomy Inc.
 
 include	<mach.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"icombine.h"
 
 # IC_LOG -- Output log information is a log file has been specfied.

@@ -1,6 +1,6 @@
 include	<error.h>
 include	<imhdr.h>
-include	<smw.h>
+include	"../lib/smw.h"
 
 define	LEN_SAP		52		# Length of structure
 define	LEN_SAPTITLE	79		# Length of title

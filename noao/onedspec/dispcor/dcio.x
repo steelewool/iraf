@@ -2,8 +2,8 @@ include	<error.h>
 include	<imhdr.h>
 include	<imset.h>
 include	<pkg/dttext.h>
-include	<smw.h>
-include	<units.h>
+include	"../../lib/smw.h"
+include	"../../lib/units.h"
 include	"dispcor.h"
 
 # Symbol table structure for the dispersion solutions.

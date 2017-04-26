@@ -1,7 +1,7 @@
 include	<error.h>
 include	<imhdr.h>
 include	<fset.h>
-include <smw.h>
+include	"../../lib/smw.h"
 
 
 # SLIST1D --  Lists header information from IIDS/IRS format header

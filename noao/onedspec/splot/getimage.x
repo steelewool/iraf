@@ -1,7 +1,7 @@
 include	<error.h>
 include	<imhdr.h>
 include	<pkg/gtools.h>
-include <smw.h>
+include	"../../lib/smw.h"
 
 # GETIMAGE -- Read new image pixels.
 

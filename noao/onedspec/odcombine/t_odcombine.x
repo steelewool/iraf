@@ -2,7 +2,7 @@ include	<imhdr.h>
 include	<error.h>
 include	<mach.h>
 include	<mwset.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"src/icombine.h"
 
 # Grouping options

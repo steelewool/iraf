@@ -1,5 +1,5 @@
 include	<error.h>
-include	<smw.h>
+include	"../lib/smw.h"
 
 # Function types.
 define  CHEBYSHEV       1       # CURFIT Chebyshev polynomial

@@ -3,7 +3,7 @@ include <pkg/gtools.h>
 include <pkg/rg.h>
 include <math/curfit.h>
 include	<error.h>
-include	<smw.h>
+include	"../lib/smw.h"
 
 # SFIT -- Fit a function to spectra and output the fit, difference or
 # ratio; or print the power series coefficients of the fit.  The fitting

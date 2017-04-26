@@ -4,7 +4,7 @@ include	<imset.h>
 include	<gset.h>
 include	<mach.h>
 include	<pkg/gtools.h>
-include	<smw.h>
+include	"../lib/smw.h"
 
 define	KEY	"noao$onedspec/standard.key"
 define	PROMPT	"STANDARD options"

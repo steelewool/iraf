@@ -1,6 +1,7 @@
 include	<time.h>
 include	<fset.h>
-include	<smw.h>
+include	"../../lib/smw.h"
+
 
 # ANS_HDR -- Add answer header in answer file
 

@@ -1,7 +1,7 @@
 include	<error.h>
 include	<imhdr.h>
 include	<mach.h>
-include	<smw.h>
+include	"../lib/smw.h"
  
 # Output formats.
 define	FORMATS		"|multispec|onedspec|"

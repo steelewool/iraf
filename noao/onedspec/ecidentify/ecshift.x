@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"ecidentify.h"
 
 define	NBIN	10	# Bin parameter for mode determination

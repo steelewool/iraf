@@ -1,6 +1,6 @@
 include	<error.h>
 include	<imhdr.h>
-include	<smw.h>
+include	"../lib/smw.h"
 
 
 # SFLIP -- Flip data and/or coordinate system in spectra.

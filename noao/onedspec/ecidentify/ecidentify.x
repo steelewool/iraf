@@ -1,7 +1,7 @@
 include	<error.h>
 include	<imhdr.h>
 include	<gset.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"ecidentify.h"
 
 define	HELP		"noao$onedspec/ecidentify/ecidentify.key"

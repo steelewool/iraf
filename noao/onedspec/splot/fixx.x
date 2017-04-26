@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 
 # FIXX - Adjust so that pixel indices are increasing.
 

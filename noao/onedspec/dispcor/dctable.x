@@ -1,7 +1,7 @@
 include	<imhdr.h>
 include	<mach.h>
 include	"dctable.h"
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
 # DC_TABLE -- Set default wavelengths.

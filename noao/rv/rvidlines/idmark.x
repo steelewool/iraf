@@ -1,5 +1,5 @@
 include	<gset.h>
-include <smw.h>
+include	"../../lib/smw.h"
 include	"identify.h"
 
 procedure id_mark (id, feature)

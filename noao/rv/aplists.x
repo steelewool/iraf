@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../lib/smw.h"
 include "rvpackage.h"
 include	"rvflags.h"
 

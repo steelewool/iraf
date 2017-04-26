@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"identify.h"
 
 # ID_PEAK -- Find the peak value above continuum.

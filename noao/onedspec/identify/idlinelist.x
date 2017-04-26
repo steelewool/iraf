@@ -1,6 +1,6 @@
 include	<error.h>
 include	<mach.h>
-include	<units.h>
+include	"../../lib/funits.h"
 include	"identify.h"
 
 # ID_MAPLL -- Read the line list into memory.

@@ -1,6 +1,6 @@
 include	<imhdr.h>
-include	<math/iminterp.h>
-include	<units.h>
+include	"../../../../lib/math/iminterp.h"
+include	"../../../lib/units.h"
 
 define	ITYPES	"|nearest|linear|poly3|poly5|spline3|"
 

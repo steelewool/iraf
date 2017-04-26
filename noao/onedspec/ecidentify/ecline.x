@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"ecidentify.h"
 
 # EC_LINE -- Get line corresponding to aperture.

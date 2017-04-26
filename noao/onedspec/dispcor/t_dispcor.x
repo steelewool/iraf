@@ -5,8 +5,8 @@ include	<mach.h>
 include	<mwset.h>
 include	"dispcor.h"
 include	"dctable.h"
-include	<smw.h>
-include	<units.h>
+include	"../../lib/smw.h"
+include	"../../lib/units.h"
  
 # Dispersion types.
 define	MULTISPEC	1

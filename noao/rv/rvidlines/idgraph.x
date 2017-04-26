@@ -1,6 +1,6 @@
 include	<gset.h>
 include	<pkg/gtools.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"identify.h"
 
 # ID_GRAPH -- Graph image vector in which features are to be identified.

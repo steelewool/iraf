@@ -1,6 +1,6 @@
 include	<gset.h>
 include	<error.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"identify.h"
 
 # List of colon commands.

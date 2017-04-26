@@ -1,7 +1,7 @@
 include	<gset.h>
 include	<math/curfit.h>
 include	"sensfunc.h"
-include	<smw.h>
+include	"../../lib/smw.h"
 
 
 # SF_IMAGE -- Graph fluxed image data and possible standard flux points.

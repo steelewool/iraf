@@ -1,5 +1,5 @@
 include	<error.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 
 define	VLIGHT		2.997925e18
 

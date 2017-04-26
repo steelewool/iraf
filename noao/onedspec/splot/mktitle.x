@@ -1,6 +1,6 @@
 include	<pkg/gtools.h>
-include	<smw.h>
-include	<units.h>
+include	"../../lib/smw.h"
+include	"../../lib/units.h"
 
 # MKTITLE -- Make a spectrum title (IIDS style)
 

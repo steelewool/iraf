@@ -1,6 +1,6 @@
 include	<mach.h>
 include	<error.h>
-include	<smw.h>
+include	"../../../lib/smw.h"
 include	"../identify.h"
 include	"autoid.h"
 

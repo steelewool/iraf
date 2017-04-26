@@ -1,7 +1,7 @@
 include	<ctype.h>
 include	<imhdr.h>
 include	<pkg/gtools.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"identify.h"
 
 # Sepcial section words.

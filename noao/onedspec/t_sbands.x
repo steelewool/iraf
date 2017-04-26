@@ -1,5 +1,5 @@
 include	<error.h>
-include	<smw.h>
+include	"../lib/smw.h"
 
 # Band structure
 define	LEN_BAND	9			# length of structure

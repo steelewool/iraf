@@ -1,5 +1,5 @@
 include	<mach.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 include "icombine.h"
 
 

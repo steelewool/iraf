@@ -1,6 +1,6 @@
 include	<error.h>
 include	<imhdr.h>
-include	<smw.h>
+include	"../lib/smw.h"
 include	<gset.h>
 include	<ctotok.h>
 

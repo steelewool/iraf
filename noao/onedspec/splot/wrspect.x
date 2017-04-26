@@ -2,8 +2,8 @@ include	<error.h>
 include	<syserr.h>
 include	<imhdr.h>
 include	<imio.h>
-include	<smw.h>
-include	<units.h>
+include	"../../lib/smw.h"
+include	"../../lib/units.h"
 
 # SP_WRSPECT -- Write spectrum to the same image or another image.
 

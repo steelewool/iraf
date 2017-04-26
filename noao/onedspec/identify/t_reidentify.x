@@ -2,7 +2,7 @@ include	<error.h>
 include	<fset.h>
 include	<gset.h>
 include	<pkg/gtools.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"identify.h"
 
 define	ICFITHELP	"noao$lib/scr/idicgfit.key"

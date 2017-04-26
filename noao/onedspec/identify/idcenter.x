@@ -1,4 +1,4 @@
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"identify.h"
 
 # ID_CENTER -- Locate the center of a feature.

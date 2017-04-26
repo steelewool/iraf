@@ -1,7 +1,7 @@
 include	<error.h>
 include	<pkg/gtools.h>
-include	<smw.h>
-include	<units.h>
+include	"../../lib/smw.h"
+include	"../../lib/units.h"
 include	<ctype.h>
 
 # List of colon commands.

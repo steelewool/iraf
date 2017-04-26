@@ -1,7 +1,7 @@
 include	<imhdr.h>
 include	<imio.h>
 include	<pkg/gtools.h>
-include	<smw.h>
+include	"../../lib/smw.h"
 include	"identify.h"
 
 define	SZ_TITLE	320	# Size of long string for title.

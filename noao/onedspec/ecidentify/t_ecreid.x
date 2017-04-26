@@ -1,5 +1,5 @@
 include	<error.h>
-include <smw.h>
+include	"../../lib/smw.h"
 include	"ecidentify.h"
 
 # T_ECREIDENTIFY -- Reidentify echelle features starting from reference.
